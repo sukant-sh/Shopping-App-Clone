@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
+
+:root{
+    --main-bg-color: #00838f ;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+  
+    background: var(--main-bg-color);
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+   
+}
+
+.logo img{
+    width: 88px;
+    padding: 0 25px;
+}
+
+
+
+nav ul{
+    height: 85px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+    
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+nav ul li a:hover{
+    font-weight: bold;
+    
+}
+
+
+.search{
+    display: flex;
+    align-items: center;
+}
+
+.search input{
+    width: 30vw;
+    height: 40px;
+    border-radius: 5px;
+    margin: 0 30px 0 56px;
+    padding: 0 12px;
+}
+
+.search button{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+.slider{
+    width: 80vw;
+    margin: 12px auto;
+    overflow: hidden;
+}
+
+.card{
+    max-width: 91vw;
+    margin: 37px auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cards{
+    display: flex;
+    overflow: scroll;
+}
+
+
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+}
+
+
+.card h2{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.container{
+    min-height: calc(100vh - 58px - 12vh);
+}
+
+
+footer{
+    height: 12vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+.tagLine {
+    display: block;
+    position: relative;
+    bottom: -2px;
+    font-size: 16px;
+    text-align: center;
+    margin: 10px 22px;
+    padding: 0px 0px;
+}
+
+
+.brand-name {
+    font-size: 32px;
+    padding-right: 250px;
+    color: white;
+    font-weight: bold;
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
